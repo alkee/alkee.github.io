@@ -1,0 +1,13 @@
+[alias]
+	timeline = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[user]
+	name = alkee
+	email = alkee.na@gmail.com
+[difftool]
+	prompt = false
+[pull]
+	rebase = false
+[fetch]
+	prune = false
+[rebase]
+	autoStash = false
